@@ -1,0 +1,22 @@
+{
+    "name": "rhse/formschutz",
+    "description": "Bot protection for plain PHP forms without CAPTCHA, cookies, JavaScript or third-party calls.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://rhse.de",
+    "authors": [
+        {"name": "René Hillers", "homepage": "https://rhse.de"}
+    ],
+    "keywords": ["form", "spam", "honeypot", "hmac", "privacy"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Formschutz\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
